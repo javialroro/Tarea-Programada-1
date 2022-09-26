@@ -27,11 +27,5 @@ def KeyCypher(mensaje,keyword):
                 string+=x[letraN-1]
         string+=" "
     print(string)
-
-#string="hola"
-#comentario
-#print(obtenerIndices(string[0]))
+    
 KeyCypher("tarea programada de codificacion","tango")
-
-
-#hola2
