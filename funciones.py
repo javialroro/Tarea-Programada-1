@@ -93,7 +93,6 @@ def xorCypher(keyword,cipher):
                     w = 0
                 keyword2 += str(cipher[w])
                 w += 1
-            print(keyword2)
             lista2+= chr(ord(i[j])^ord(keyword2[j]))
     print(lista2)
 
