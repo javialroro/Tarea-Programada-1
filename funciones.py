@@ -98,4 +98,4 @@ def xorCypher(keyword,cipher):
 
 #vigenereCypher('tarea programada','99')
 #vigenereDecypher("cjanj yaxpajvjmj",'99')
-xorCypher("tarea programada","secreto")
+#xorCypher("tarea programada","secreto")
