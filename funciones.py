@@ -129,4 +129,3 @@ def telephoneCypher(x):
         if x[i]=='a':
             cifrado+="21"
     return print(cifrado)
-telephoneCypher("a")
