@@ -1,0 +1,23 @@
+Cesar:
+- isalpha
+- ponerle .lower
+- que la cifra sea un numero
+
+Llave:
+- que las dos palabras sean isalpha
+
+Vigenere:
+- que sean palabra y cifra
+
+XOR:
+- que ambas entradas sean palabras
+
+Palabra inversa:
+
+Frase inversa:
+
+Telefono:
+- Que sea una palabra
+
+Binario:
+- Que sea una palabra
