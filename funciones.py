@@ -1,6 +1,7 @@
 #Prueba
 x = "abcdefghijklmnopqrstuvwxyz"
 x1 = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+ascii= '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f'
 def obtenerIndices(keyword):
     for i in range(len(keyword)):
         for j in range(len(x)):
@@ -96,11 +97,6 @@ def xorCypher(keyword,cipher):
             lista2+= chr(ord(i[j])^ord(keyword2[j]))
     print(lista2)
 
-<<<<<<< Updated upstream
-=======
-#vigenereCypher('tarea programada','99')
-#vigenereDecypher("cjanj yaxpajvjmj",'99')
->>>>>>> Stashed changes
 #xorCypher("tarea programada","secreto")
 
 def palabraInverso(x):
@@ -133,9 +129,4 @@ def telephoneCypher(x):
         if x[i]=='a':
             cifrado+="21"
     return print(cifrado)
-<<<<<<< Updated upstream
 telephoneCypher("a")
-=======
-telephoneCypher("a")
-
->>>>>>> Stashed changes
