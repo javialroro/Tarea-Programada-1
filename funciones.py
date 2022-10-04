@@ -96,11 +96,9 @@ def xorCypher(keyword,cipher):
             lista2+= chr(ord(i[j])^ord(keyword2[j]))
     print(lista2)
 
-<<<<<<< Updated upstream
-=======
+
 #vigenereCypher('tarea programada','99')
 #vigenereDecypher("cjanj yaxpajvjmj",'99')
->>>>>>> Stashed changes
 #xorCypher("tarea programada","secreto")
 
 def palabraInverso(x):
