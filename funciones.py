@@ -249,6 +249,6 @@ def telephoneDecypher(x):
             cifrado+="z"
         #cifrado+=" "
     return print(cifrado)
-telephoneCypher("tarea programada")
-telephoneDecypher("81 21 73 32 21 * 71 73 63 41 73 21 61 21 31 21")
+#telephoneCypher("tarea programada")
+#telephoneDecypher("81 21 73 32 21 * 71 73 63 41 73 21 61 21 31 21")
 
