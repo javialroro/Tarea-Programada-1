@@ -130,12 +130,130 @@ def fraseInversa(x):
 def telephoneCypher(x):
     cifrado=""
     for i in range(len(x)):
+        if x[i]==' ':
+            cifrado+="*"
         if x[i]=='a':
             cifrado+="21"
+        if x[i]=='b':
+            cifrado+="22"
+        if x[i]=='c':
+            cifrado+="23"
+        if x[i]=='d':
+            cifrado+="31"
+        if x[i]=='e':
+            cifrado+="32"
+        if x[i]=='f':
+            cifrado+="33"
+        if x[i]=='g':
+            cifrado+="41"
+        if x[i]=='h':
+            cifrado+="42"
+        if x[i]=='i':
+            cifrado+="43"
+        if x[i]=='j':
+            cifrado+="51"
+        if x[i]=='k':
+            cifrado+="52"
+        if x[i]=='l':
+            cifrado+="53"
+        if x[i]=='m':
+            cifrado+="61"
+        if x[i]=='n':
+            cifrado+="62"
+        if x[i]=='o':
+            cifrado+="63"
+        if x[i]=='p':
+            cifrado+="71"
+        if x[i]=='q':
+            cifrado+="72"
+        if x[i]=='r':
+            cifrado+="73"
+        if x[i]=='s':
+            cifrado+="74"
+        if x[i]=='t':
+            cifrado+="81"
+        if x[i]=='u':
+            cifrado+="82"
+        if x[i]=='v':
+            cifrado+="83"
+        if x[i]=='w':
+            cifrado+="91"
+        if x[i]=='x':
+            cifrado+="92"
+        if x[i]=='y':
+            cifrado+="93"
+        if x[i]=='z':
+            cifrado+="94"
+        cifrado+=" "
     return print(cifrado)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 telephoneCypher("a")
 =======
 telephoneCypher("a")
 
+>>>>>>> Stashed changes
+=======
+def telephoneDecypher(x):
+    cifrado=""
+    x=list(x.split(' '))
+    for i in range(len(x)):
+        if x[i]=='*':
+            cifrado+=" "
+        if x[i]=='21':
+            cifrado+="a"
+        if x[i]=='22':
+            cifrado+="b"
+        if x[i]=='23':
+            cifrado+="c"
+        if x[i]=='31':
+            cifrado+="d"
+        if x[i]=='32':
+            cifrado+="e"
+        if x[i]=='33':
+            cifrado+="f"
+        if x[i]=='41':
+            cifrado+="g"
+        if x[i]=='42':
+            cifrado+="h"
+        if x[i]=='43':
+            cifrado+="i"
+        if x[i]=='51':
+            cifrado+="j"
+        if x[i]=='52':
+            cifrado+="k"
+        if x[i]=='53':
+            cifrado+="l"
+        if x[i]=='61':
+            cifrado+="m"
+        if x[i]=='62':
+            cifrado+="n"
+        if x[i]=='63':
+            cifrado+="o"
+        if x[i]=='71':
+            cifrado+="p"
+        if x[i]=='72':
+            cifrado+="q"
+        if x[i]=='73':
+            cifrado+="r"
+        if x[i]=='74':
+            cifrado+="s"
+        if x[i]=='81':
+            cifrado+="t"
+        if x[i]=='82':
+            cifrado+="u"
+        if x[i]=='83':
+            cifrado+="v"
+        if x[i]=='91':
+            cifrado+="w"
+        if x[i]=='92':
+            cifrado+="x"
+        if x[i]=='93':
+            cifrado+="y"
+        if x[i]=='94':
+            cifrado+="z"
+        #cifrado+=" "
+    return print(cifrado)
+telephoneCypher("tarea programada")
+telephoneDecypher("81 21 73 32 21 * 71 73 63 41 73 21 61 21 31 21")
 >>>>>>> Stashed changes
