@@ -186,14 +186,11 @@ def telephoneCypher(x):
             cifrado+="94"
         cifrado+=" "
     return print(cifrado)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 telephoneCypher("a")
-=======
 telephoneCypher("a")
 
->>>>>>> Stashed changes
-=======
+
 def telephoneDecypher(x):
     cifrado=""
     x=list(x.split(' '))
@@ -256,4 +253,4 @@ def telephoneDecypher(x):
     return print(cifrado)
 telephoneCypher("tarea programada")
 telephoneDecypher("81 21 73 32 21 * 71 73 63 41 73 21 61 21 31 21")
->>>>>>> Stashed changes
+
