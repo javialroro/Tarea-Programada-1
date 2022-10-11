@@ -535,3 +535,6 @@ def binarioCodifica(x):
         cifrado+=" "
     return cifrado
 
+
+#hola
+
