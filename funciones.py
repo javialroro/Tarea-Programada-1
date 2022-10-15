@@ -28,6 +28,7 @@ def KeyCypher(mensaje,keyword):
         string+=" "
     print(string)
 
+<<<<<<< Updated upstream
 #string="hola"
 #comentario
 #print(obtenerIndices(string[0]))
@@ -35,3 +36,8 @@ KeyCypher("tarea programada de codificacion","tango")
 
 
 #hola2
+=======
+
+KeyCypher("tarea programada de codificacion","tango")
+
+# hola me llamo pedro 
